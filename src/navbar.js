@@ -16,6 +16,9 @@ const navbar =
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
                 </li>
+                                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./productosAdmin.html">Productos Admin</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./contacto.html">Contactanos</a>
                 </li>
