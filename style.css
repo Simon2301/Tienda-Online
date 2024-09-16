@@ -41,3 +41,20 @@ header, #contF {
     position: relative;
     z-index: 20; /* Ensure the header and footer are above the #contInicio */
 }
+
+
+h1{text-align: center;}
+
+.new {
+    display: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+}
+
