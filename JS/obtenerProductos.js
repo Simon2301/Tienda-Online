@@ -14,9 +14,12 @@ const mostrarProductos = (datos) => {
             <div class="card-body ">
                 <h4>${datos.titulo}</h4>
                 <p class="card-text ">${datos.descripcion}</p>
+
             </div>
-                  <button class="btn btn-outline-success mt-auto mb-3" type="submit">Comprar</button>
-            </div>`
+                <p class="card-text border border-secondary rounded p-2"><strong>${datos.precio}</strong></p>
+                <button class="btn btn-outline-success mt-auto mb-3" type="submit">Comprar</button>
+        </div>
+        `
     })
     contenedor.innerHTML = productos
 }
