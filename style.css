@@ -48,7 +48,9 @@ h1{text-align: center;}
 .new {
     display: none;
 }
-
+.newE {
+    display: none;
+}
 
 body {
     font-family: Arial, sans-serif;
