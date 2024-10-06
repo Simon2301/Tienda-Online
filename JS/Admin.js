@@ -20,9 +20,21 @@ const mostrarProductos = (datos) => {
                 <h4>${datos.titulo}</h4>
                 <p class="card-text ">${datos.descripcion}</p>
             </div>
-            <p class="card-text border border-secondary rounded p-2"><strong>${datos.precio}</strong></p>
-            <button class="btn btn-outline-warning mt-auto mb-3 edit">Editar</button>
-            <button class="btn btn-outline-danger mt-auto mb-3" type="submit"><i class="bi bi-trash"></i></button>
+<div class="d-flex justify-content-between align-items-center w-100 mb-2 px-2">
+  <p class="card-text border border-secondary rounded p-2 mb-0">
+    <strong>${datos.precio}</strong>
+  </p>
+  <div class="d-flex ms-auto">
+    <a href="#prodEditar" class="btn btn-outline-warning me-2 edit">
+      <i class="bi bi-pencil"></i>
+    </a>
+    <a class="btn btn-outline-danger" type="submit">
+      <i class="bi bi-trash"></i>
+    </a>
+  </div>
+</div>
+
+
         </div>`
     })
     contenedor.innerHTML = productos
